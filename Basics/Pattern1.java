@@ -1,3 +1,5 @@
+//rectangular star pattern
+
 package Basics;
 
 import java.util.Scanner;
