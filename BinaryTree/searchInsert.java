@@ -40,6 +40,8 @@ public class searchInsert {
         System.out.println("Enter the value of x: ");
         int x = sc.nextInt();
 
+        sc.close();
+        
         int ind = searchIns(arr, x);
         System.out.println("The index is: "+ind);
     }

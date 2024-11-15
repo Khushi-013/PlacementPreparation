@@ -1,18 +1,15 @@
 package Basics;
 
-import java.io.*;
-import java.lang.*;
-import java.math.*;
 import java.util.*;
 class DataType{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int T = sc.nextInt();
+        sc.close();
         while(T-- > 0){
             sc.nextLine();
             String s = sc.next();
-            Solution obj = new Solution();
-            int ans = obj.dataTypeSize(s);
+            int ans = Solution.dataTypeSize(s);
             String Character = "Character";
             if(Character.equals(s) && ans==2){
                 ans=1;

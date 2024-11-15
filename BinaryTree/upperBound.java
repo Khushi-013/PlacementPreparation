@@ -42,6 +42,7 @@ public class upperBound {
 
         System.out.println("Enter the value of x: ");
         int x = sc.nextInt();
+        sc.close();
         int ind = ub(arr, x, n);
         System.out.println("The upper bound is the index: "+ind);
     }

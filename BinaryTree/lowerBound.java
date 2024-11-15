@@ -37,6 +37,8 @@ public class lowerBound {
             }
         }
 
+        sc.close();
+
         System.out.println("Enter the value of x: ");
         int x = sc.nextInt();
         int ind = lb(arr, n, x);

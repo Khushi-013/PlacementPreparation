@@ -41,7 +41,7 @@ public class lastOccurrence {
 
         System.out.println("Enter the value of key: ");
         int key = sc.nextInt();
-
+        sc.close();
         System.out.println(solve(n, key, arr));
     }
 }

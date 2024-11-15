@@ -44,5 +44,7 @@ public class BinarySearch {
             System.out.println("The target is not present.");
         else
             System.out.println("The target is at index: " + ind);
+
+            sc.close();
     }
 }

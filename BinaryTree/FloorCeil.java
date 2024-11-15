@@ -61,5 +61,7 @@ public class FloorCeil {
 
         int[] ans = getFloorAndCeil(arr, n, x);
         System.out.println("The floor and ceil are: "+ans[0]+" "+ans[1]);
+
+        sc.close();
     }
 }

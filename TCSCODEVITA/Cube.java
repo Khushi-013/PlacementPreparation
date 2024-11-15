@@ -56,6 +56,7 @@ public class Cube {
 
         int N = scanner.nextInt();
         scanner.nextLine();
+        scanner.close();
 
         String[] input = scanner.nextLine().split(",");
         double[][] points = new double[N][3];
